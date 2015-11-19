@@ -1,2 +1,4 @@
 apps=https://github.com/heroku/heroku-buildpack-ruby
+apps/vendor/bundle/ruby/2.0.0/bundler/gems/heroku-modular-first_app-back-8c558fb78009=https://github.com/heroku/heroku-buildpack-nodejs
+apps/vendor/bundle/ruby/2.0.0/bundler/gems/heroku-modular-second_app-back-523267d47351=https://github.com/heroku/heroku-buildpack-nodejs
 https://github.com/heroku/heroku-buildpack-ruby
