@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     first_app (0.1.0)
+      rack
 
 GEM
   remote: https://rubygems.org/
@@ -29,7 +30,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.10)
   first_app!
-  rack
   rake (~> 10.0)
   rspec
 
