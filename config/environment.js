@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'front',
+    modulePrefix: 'first_app',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

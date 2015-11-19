@@ -1,7 +1,7 @@
 {
-  "name": "front",
-  "version": "0.0.0",
-  "description": "Small description for front goes here",
+  "name": "first_app",
+  "version": "0.1.0",
+  "description": "First front application for the heroku modular demo.",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -12,11 +12,11 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/dieze/heroku-modular-first_app-front.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "dieze <dieze51@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
