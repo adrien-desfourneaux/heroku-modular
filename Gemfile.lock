@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/dieze/heroku-modular-first_app-back
+  revision: 5ea615cb1839a213c7520818b5afccaea2f7f415
+  specs:
+    first_app (0.1.0)
+
+GIT
+  remote: https://github.com/dieze/heroku-modular-second_app-back
+  revision: 9ad78b7edfb7986a188e9e357252b7d6d47f5587
+  specs:
+    second_app (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,7 +19,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  first_app!
   rack
+  second_app!
 
 BUNDLED WITH
    1.10.6
