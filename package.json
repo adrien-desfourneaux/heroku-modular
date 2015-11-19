@@ -1,0 +1,14 @@
+{
+  "name": "second_app-back",
+  "version": "0.0.0",
+  "description": "Second back application for the heroku modular demo.",
+  "private": true,
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "dieze <dieze51@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "second_app": "dieze/heroku-modular-second_app-front"
+  }
+}
