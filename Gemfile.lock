@@ -4,6 +4,7 @@ PATH
     second_app (0.1.0)
       grape
       rack
+      rack-test
 
 GEM
   remote: https://rubygems.org/

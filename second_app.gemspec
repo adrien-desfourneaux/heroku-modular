@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "grape"
   spec.add_runtime_dependency "rack"
+  spec.add_runtime_dependency "rack-test"
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rack-test"
