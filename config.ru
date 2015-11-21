@@ -1,1 +1,3 @@
-run lambda{|env| [200, {'Content-Type' => 'text/plain'}, ["first_app"]]}
+require 'first_app/app'
+
+run FirstApp::App
