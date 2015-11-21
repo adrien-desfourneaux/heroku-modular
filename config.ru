@@ -1,1 +1,3 @@
-run lambda{|env| [200, {'Content-Type' => 'text/plain'}, ["second_app"]]}
+require 'second_app/app'
+
+run SecondApp::App
