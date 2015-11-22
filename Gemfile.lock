@@ -1,21 +1,24 @@
 GIT
   remote: https://github.com/dieze/heroku-modular-first_app-back
-  revision: 410be8030e0fd38ab1987b1f019337178cca6992
+  revision: 7c6fb8b6eb2232ac0ffe34f8749d091b4d6aa924
   specs:
     first_app (0.1.0)
       rack
+      rack-rewrite
 
 GIT
   remote: https://github.com/dieze/heroku-modular-second_app-back
-  revision: 1e7037057f06ac38a1f6611f06bec44d398b9d32
+  revision: eba15832b9899e3a83d07419bd584f94c1dfa2c4
   specs:
     second_app (0.1.0)
       rack
+      rack-rewrite
 
 GEM
   remote: https://rubygems.org/
   specs:
     rack (1.6.4)
+    rack-rewrite (1.5.1)
 
 PLATFORMS
   ruby
