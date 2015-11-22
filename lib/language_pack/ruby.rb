@@ -90,16 +90,16 @@ WARNING
       # check for new app at the beginning of the compile
       new_app?
       Dir.chdir(build_path)
-      remove_vendor_bundle
+#       remove_vendor_bundle
       install_ruby
       install_jvm
       setup_language_pack_environment
       setup_export
       setup_profiled
       allow_git do
-        install_bundler_in_app
-        build_bundler
-        post_bundler
+#         install_bundler_in_app
+#         build_bundler
+#         post_bundler
         create_database_yml
         install_binaries
         run_assets_precompile_rake_task
