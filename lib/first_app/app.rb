@@ -1,11 +1,8 @@
-module FirstApp
-  class Logger
-    def initialize(app); @app = app; end
-    def call(env); puts env['PATH_INFO'].inspect; @app.call(env); end
-  end
+require 'rack/rewrite'
 
+module FirstApp
   App = Rack::Builder.new {
-    use Logger
+    use Rack::Rewrite do rewrite '', '/' end # Fix bug when PATH_INFO=''
 
     map "/api" do
       run lambda { |env| [200, {'Content-Type' => 'text/plain'}, ['first_app']] }

@@ -3,6 +3,7 @@ PATH
   specs:
     first_app (0.1.0)
       rack
+      rack-rewrite
 
 GEM
   remote: https://rubygems.org/
@@ -33,7 +34,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.10)
   first_app!
-  rack-rewrite
   rack-test
   rake (~> 10.0)
   rspec
