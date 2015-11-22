@@ -1,3 +1,7 @@
+# Changes
+
+__only rack is disabled__
+
 # Heroku Buildpack for Ruby
 ![ruby](https://cloud.githubusercontent.com/assets/51578/8882726/52caf102-3217-11e5-8a6c-2d47c57f0030.jpg)
 
