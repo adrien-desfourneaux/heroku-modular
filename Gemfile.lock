@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/dieze/heroku-modular-first_app-back
-  revision: 6e8ae4b4333fa8ac2782d1dc853f3f2d40c888cb
+  revision: 1c6598fd1ba8a10111b905991a3a07089440c3dd
   specs:
     first_app (0.1.0)
       rack
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/dieze/heroku-modular-second_app-back
-  revision: fb7ad042421390c89cf6384cc95879067852ffd1
+  revision: 412f42c1df848648bb8f13a262cba2c5bdd60497
   specs:
     second_app (0.1.0)
       rack
