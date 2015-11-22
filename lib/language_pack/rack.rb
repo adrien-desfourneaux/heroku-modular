@@ -31,9 +31,9 @@ class LanguagePack::Rack < LanguagePack::Ruby
         "bundle exec thin start -R config.ru -e $RACK_ENV -p $PORT" :
         "bundle exec rackup config.ru -p $PORT"
 
-      super.merge({
-        "web" => web_process
-      })
+#       super.merge({
+#         "web" => web_process
+#       })
     end
   end
 
