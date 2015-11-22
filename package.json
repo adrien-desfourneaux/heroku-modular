@@ -10,7 +10,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "repository": "https://github.com/dieze/heroku-modular-second_app-front.git",
   "engines": {
@@ -18,6 +19,9 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "bower": "^1.6.5"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
     "ember-cli": "1.13.8",
