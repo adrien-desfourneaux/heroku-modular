@@ -10,6 +10,6 @@ module FirstApp
 
     use Rack::Static, urls: [''], root: __dir__ + '/../../node_modules/first_app/dist', index: 'index.html'
 
-    run lambda { |env| [200, {'Content-Type' => 'text/plain'}, ['OK']] }
+    run lambda { |env| [404, {'Content-Type' => 'text/plain'}, ['Not Found']] }
   }
 end
