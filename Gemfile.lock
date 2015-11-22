@@ -9,6 +9,7 @@ GEM
   specs:
     diff-lcs (1.2.5)
     rack (1.6.4)
+    rack-rewrite (1.5.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (10.4.2)
@@ -31,6 +32,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.10)
+  rack-rewrite
   rack-test
   rake (~> 10.0)
   rspec
