@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["dieze"]
   spec.email         = ["dieze51@gmail.com"]
 
-  spec.summary       = "Second back application for the heroku modular demo."
-  spec.homepage      = "https://github.com/dieze/heroku-modular-second_app-back"
+  spec.summary       = "Backend for the second application of the heroku modular demo."
+  spec.homepage      = "https://github.com/dieze/heroku-modular/tree/app2/back/master"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
