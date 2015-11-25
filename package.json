@@ -1,7 +1,7 @@
 {
   "name": "first_app-back",
   "version": "0.0.0",
-  "description": "First back application for the heroku modular demo.",
+  "description": "Backend for the first application of the heroku modular demo.",
   "private": true,
   "engines": {
     "node": ">= 0.10.0"
@@ -9,6 +9,6 @@
   "author": "dieze <dieze51@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "first_app": "dieze/heroku-modular-first_app-front"
+    "first_app": "dieze/heroku-modular#app1/front/master"
   }
 }
