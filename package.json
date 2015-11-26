@@ -1,7 +1,7 @@
 {
   "name": "first_app",
   "version": "0.1.0",
-  "description": "First front application for the heroku modular demo.",
+  "description": "Frontend for the first application of the heroku modular demo.",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -12,7 +12,7 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "https://github.com/dieze/heroku-modular-first_app-front.git",
+  "repository": "https://github.com/dieze/heroku-modular/tree/app1/front/master",
   "engines": {
     "node": ">= 0.10.0"
   },
