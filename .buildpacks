@@ -1,8 +1,8 @@
-https://github.com/dieze/heroku-buildpack-ruby-without-webserver
-vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-first_app-back-1c6598fd1ba8=https://github.com/heroku/heroku-buildpack-nodejs
-vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-first_app-back-1c6598fd1ba8/node_modules/first_app=https://github.com/heroku/heroku-buildpack-nodejs
-vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-first_app-back-1c6598fd1ba8/node_modules/first_app=https://github.com/szimek/heroku-buildpack-ember-cli-without-webserver.git
-vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-second_app-back-412f42c1df84=https://github.com/heroku/heroku-buildpack-nodejs
-vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-second_app-back-412f42c1df84/node_modules/second_app=https://github.com/heroku/heroku-buildpack-nodejs
-vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-second_app-back-412f42c1df84/node_modules/second_app=https://github.com/szimek/heroku-buildpack-ember-cli-without-webserver.git
-https://github.com/dieze/heroku-buildpack-ruby-without-bundler
+git://github.com/dieze/heroku-modular#bp/ruby-no-server
+vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-1c6598fd1ba8=https://github.com/heroku/heroku-buildpack-nodejs
+vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-1c6598fd1ba8=https://github.com/heroku/heroku-buildpack-nodejs
+vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-1c6598fd1ba8=https://github.com/szimek/heroku-buildpack-ember-cli-without-webserver.git
+vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-412f42c1df84=https://github.com/heroku/heroku-buildpack-nodejs
+vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-412f42c1df84=https://github.com/heroku/heroku-buildpack-nodejs
+vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-412f42c1df84=https://github.com/szimek/heroku-buildpack-ember-cli-without-webserver.git
+git://github.com/dieze/heroku-modular#bp/ruby-no-bundler

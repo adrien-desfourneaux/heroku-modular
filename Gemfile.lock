@@ -1,14 +1,16 @@
 GIT
-  remote: https://github.com/dieze/heroku-modular-first_app-back
+  remote: https://github.com/dieze/heroku-modular.git
   revision: 1c6598fd1ba8a10111b905991a3a07089440c3dd
+  branch: app1/back/master
   specs:
     first_app (0.1.0)
       rack
       rack-rewrite
 
 GIT
-  remote: https://github.com/dieze/heroku-modular-second_app-back
+  remote: https://github.com/dieze/heroku-modular.git
   revision: 412f42c1df848648bb8f13a262cba2c5bdd60497
+  branch: app2/back/master
   specs:
     second_app (0.1.0)
       rack
