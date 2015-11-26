@@ -1,3 +1,4 @@
+https://github.com/siassaj/heroku-buildpack-git-deploy-keys
 git://github.com/dieze/heroku-modular#bp/ruby-no-server
 vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-1c6598fd1ba8=https://github.com/heroku/heroku-buildpack-nodejs
 vendor/bundle/ruby/2.2.0/bundler/gems/heroku-modular-1c6598fd1ba8=https://github.com/heroku/heroku-buildpack-nodejs
